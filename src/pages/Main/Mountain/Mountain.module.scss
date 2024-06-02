@@ -1,0 +1,62 @@
+.container {
+  margin-top: 250px;
+  margin-bottom: 227px;
+
+  .mountain_section {
+    background-image: url("./images/cloud_img.png");
+    height: 985px;
+    background-size: cover;
+    background-position: center;
+    padding: 0 31px 23px 41px;
+    object-fit: cover;
+    color: $white-color;
+
+    .icons_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 463px;
+    }
+
+    .main_texts_wrapper {
+      margin-top: 41px;
+      text-align: center;
+      padding: 0 114px 19px 115px;
+
+      .line_icons {
+        display: flex;
+        align-items: center;
+        gap: 29px;
+        justify-content: center;
+        color: $light-yellow-color;
+        @include body-text;
+        font-weight: 700;
+      }
+
+      h2 {
+        @include h2-text;
+        font-weight: 700;
+        margin-top: 24px;
+        margin-bottom: 27px;
+      }
+
+      p {
+        @include body-text;
+        font-weight: 600;
+      }
+    }
+
+    .botttom_icon {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      justify-content: center;
+      margin-top: 39px;
+
+      a {
+        color: $light-yellow-color;
+        font-weight: 700;
+      }
+    }
+  }
+}

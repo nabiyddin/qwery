@@ -1,0 +1,39 @@
+@mixin h1-text {
+  font-size: 96px;
+  line-height: 100px;
+}
+
+@mixin h2-text {
+  font-size: 64px;
+  line-height: 88px;
+}
+
+@mixin h3-text {
+  font-size: 48px;
+  line-height: 66px;
+}
+
+@mixin h4-text {
+  font-size: 24px;
+  line-height: 33px;
+}
+
+@mixin h5-text {
+  font-size: 22px;
+  line-height: 29px;
+}
+
+@mixin body-text {
+  font-size: 18px;
+  line-height: 25px;
+}
+
+@mixin base-text {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+@mixin caption-text {
+  font-size: 15px;
+  line-height: 20px;
+}

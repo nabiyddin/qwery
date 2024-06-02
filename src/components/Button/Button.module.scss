@@ -1,0 +1,10 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 75px 24px 70px;
+  color: $bg-color;
+  border-radius: 5px;
+  cursor: pointer;
+  @include base-text;
+}

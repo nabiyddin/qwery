@@ -1,0 +1,49 @@
+.culture_section {
+  display: flex;
+  align-items: center;
+
+  .main_texts_wrapper {
+    padding: 115px 210px 115px 42px;
+    color: $white-color;
+
+    .line_icon {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+
+      p {
+        color: $light-yellow-color;
+        @include body-text;
+        font-weight: 700;
+      }
+    }
+
+    h2 {
+      @include h2-text;
+      font-weight: 700;
+      margin: 27px 0;
+    }
+
+    p {
+      @include body-text;
+      font-weight: 400;
+    }
+
+    .bottom_arrow {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      margin-top: 27px;
+
+      a {
+        color: $light-yellow-color;
+        font-weight: 700;
+        @include body-text;
+      }
+    }
+  }
+
+  img {
+    width: 579px;
+  }
+}
